@@ -1,11 +1,17 @@
 import { useState } from 'react'
-import './App.css'
+
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
   return (
-    <div className='App'>
-      <section className='App-content'>ecommerce</section>
-    </div>
+    <>
+      <Header />
+      <main>
+        <h1>ecommerce</h1>
+      </main>
+      <Footer />
+    </>
   )
 }
 
